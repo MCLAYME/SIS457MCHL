@@ -1,0 +1,118 @@
+NOTAS DE PROGRAMCION AVANZADA (SIS 457)
+
+
+
+
+
+revisar los assets del juego donkey Kong 
+------------------------------------------
+revisar el curso en YouTube CHAIS para repasar programacion en c++
+-----------------------------------
+manejo de programacion orientada a objetos
+1= encapsulamiento
+2= herencia
+3= polimorfismo
+4= abstraccion
+
+
+
+21/08/2024   notas de programación	
+----------------------------------------------------------------
+CREAR class 	obstaculo
+		ObstaculoMuro
+investigar de punteros y actores
+ubicanes 	x = 1150 y = - 200 
+		      z=  100
+		
+
+27/08/224
+----------------
+teoría estamos en el tercer tema de templates de sis457
+-----------------------------------------------------------
+revisar las plantillas STL
+-----------------------------
+tipos de contenedores
+-----------------------------
+
+06/09/2024
+--------------
+
+agregar un TMAP
+10/09/2024
+-----------------
+US es un componente de actor, 
+
+11/09/2024
+-------------------
+
+hacer una plataforma que se mueva en el ecenario y el personaje se suba y la plataforma avance durante en la plataforma de 3 pisos 
+
+1= plataforma que tenga 3 componentes móviles 
+2= que tenga 2 plataformas deslizantes hasta el 3 piso 
+3= generar al menos 3 compuertas secretas en las plataformas 
+que se deben alamcenar en un Tmap 
+para que se mueva con bool bmover = false;
+en el método on tick 
+if (Bmover)
+return true; 
+13/209/2024
+----------------
+crear un objeto representando a al mono que dispare proyectiles hacia abajo atravesando las estructuras con movimientos aleatorios 
+
+17/09/2024
+----------------------
+
+segunda parte del semestre para poder pasar a una programacion mas avanzada
+
+PATRONES DE DISEÑO DE SOFTWARE
+
+es modificación de líneas de código y reducción para que se vaya viendo mas limpio el código
+
+los patrones pueden ser la ase de un manual de ingeniería de software, son 23 patrones 
+
+practicar y leer las clases abstractas y las interfaces
+
+que es una clase abstracta , es una clase donde se declara métodos que no hacen nada o son métodos que se crean para poder declarar objetos , nocce puede crear objetos en una clase abstracta 
+
+18/09/2024
+-----------------
+laboratorio 3
+---------------
+clase Padre Muro
+clase Hija MuroLadrillo
+clase Hija MuroPegajoso
+clase Hija MuroElectrica
+clase Hija MuroCongelada
+POLIMORFISMO CHOCAR Muro
+
+laboratorio 4
+
+
+aplicar efectos a los clases hija muros como ejemplo que aplique 
+los efectos
+-------------------
+
+creación de la clase padre 
+CLASE MURO
+CLASE HIJA MURO LADRILLO 
+CLASE HIJA MURO PEGAJOZA
+CLASE HIJA MURO CONGELADA 
+CLASE HIJA MURO ELECTRICA
+
+POLIMORFISMO CHOCARMURO
+
+24/09/2024
+-------------------
+1= construir un software usando el codigo de laboratorio 
+variantes:
+
+	a= Mario este en la parte super de la estructura 
+	b= cada plataforma debe estar compuesta de 10 componentes de plataforma, los cuales deben ser almacenados en un T<Array> 
+	c= se implementara un cono que dispare en cualquier dirección aleatoriamente 
+d= implementar una nueva clase de muro 
+e= deben existir al  menos dos componentes que se muevan de izquierda a derecha y de arriba abajo donde aparezcan estos componentes en la plataforma solo deben existir 8 componentes por plataforma
+
+25/09/2024
+----------------------
+
+revisión de examen
